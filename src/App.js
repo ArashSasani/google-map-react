@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import GMapSummary from "./components/map/GMapSummary"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GMapSummary
+        location={{lat: 41, lng: 28.97}}
+        defaultCenter={{lat: 41, lng: 28.97}}
+        center={{lat: 41, lng: 28.97}}
+        mapDraggable={false}
+        disableZoom={true}
+        disableFullScreen={true}
+        zoom={12}
+        style={{
+          height: '400px',
+          width: '100%'
+        }}
+      />
     </div>
   );
 }
