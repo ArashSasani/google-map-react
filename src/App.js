@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import GMapSummary from "./components/map/GMapSummary"
 
 function App() {

@@ -1,3 +1,10 @@
+# A few useful Google map React components
+
+Might save you time while trying to integrate Google map API to your React app.
+Package used: [google-map-react](https://www.npmjs.com/package/google-map-react)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
